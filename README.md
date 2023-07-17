@@ -7,7 +7,7 @@ An unofficial code reproduction of **Channel Attention Dense U-Net for Multichan
 
 It was observed that the number of output channels for each Down block is 4 times that of the input, while the number of output channels for Up block is 1/2 of the input, which leads to a mismatch in the number of network channels during operation
 
-
+<div align="center"><img src="./doc/u-net.png" width="400" ></div>
 
 According to the above logic, the output of the last Down block in the above figure should be 16K, but the author wrote it as 8K
 
